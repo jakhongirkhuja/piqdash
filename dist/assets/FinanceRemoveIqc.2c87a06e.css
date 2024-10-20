@@ -1,0 +1,1 @@
+.filterType{display:flex;align-items:center;margin-bottom:20px}.filterType__text{margin-right:10px;font-weight:700}.filterType__buttons{margin-right:10px;display:inline-block}.list{margin-top:4px}.list__each,.selected{background-color:#fff;font-size:17px;padding:12px}.list__each:hover{cursor:pointer;background-color:#e7e7e7}

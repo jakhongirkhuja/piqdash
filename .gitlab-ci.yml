@@ -1,0 +1,13 @@
+image: alpine:latest
+pages:  
+  stage: deploy  
+  before_script:
+  - npm -v
+  - rm -r /var/www/www-root/data/www/board.pharmiq.uz/dist/*
+  
+  script:
+  - cp -r -u * /var/www/www-root/data/www/board.pharmiq.uz
+  - cd /var/www/www-root/data/www/board.pharmiq.uz
+  - ls -la
+  only:
+    - main
